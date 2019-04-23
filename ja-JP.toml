@@ -1,1 +1,4 @@
 TestMessage = "Hello go-i18n"
+
+[Example1]
+Hello1 = "Hello yukpiz!"
