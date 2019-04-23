@@ -24,5 +24,7 @@ func main() {
 	fmt.Println(localizer.MustLocalize(&i18n.LocalizeConfig{MessageID: "Example1.Hello1"}))
 
 	err := errors.New("custom exception!")
-	localize.T("Example1.Hello1")
+	if err != nil {
+		//i18n.T("Example1.Hello1")
+	}
 }
